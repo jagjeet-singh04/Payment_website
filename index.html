@@ -7,9 +7,29 @@
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="./img/favicon-default.9e0f1b99.png" type="image/x-icon">
     <script src="https://unpkg.com/browse/feather-icons@4.24.0/Q"></script>
+    <style>
+        .corefeaturesection{
+            background-size: 100% 100%;
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+        }
+        .companiesList{ 
+            animation:10s infinite linear movecompany  ; 
+        }
+
+        @keyframes movecompany  {
+            0% { 
+                top: 0 ; 
+            }
+            100% { 
+                top:-50% ; 
+            }
+        }
+    </style>
+
 </head>
 <body>
-<div class="overflow-x-hidden">
+<div class="overflow-x-hidden relative w-full ">
 
         <!-- upper section  -->
         <nav  class="bg-deepBlue">
@@ -742,7 +762,7 @@
                 class="w-10 h-10 bg-lightBlue rounded-3xl">
                 <h3 class="font-mullish text-lg font-bold pt-4 ">UPI AutoPay </h3>
                 <p class="font-mullish py-3 text-grayText leading-normal "> Allow customers to set up recurring payments using UPI Apps </p>
-                <div class="flex items-center justify-center">
+                <div class="flex items-center my-[45px] justify-center">
                     <a href="#"
                        class="border-[2px] py-[14px] px-[18px] rounded-md font-mullish font-bold text-lightBlue500 hover:text-grayBlue transition-all duration-200">know more</a>
                 </div>
@@ -754,7 +774,7 @@
                 <h3 class="font-mullish text-lg font-bold pt-4 "> Magic Checkout </h3>
                 <p class="font-mullish py-3 text-grayText leading-normal "> Improve your order conversion rates & reduce return-to-origins.
                     Boost your business by 20% </p>
-                <div class="flex items-center justify-center">
+                <div class="flex my-[10px] items-center justify-center">
                     <a href="#"
                        class="border-[2px] py-[14px] px-[18px] rounded-md font-mullish font-bold text-lightBlue500 hover:text-grayBlue transition-all duration-200">know more</a>
                 </div>
@@ -766,7 +786,7 @@
                 <h3 class="font-mullish text-lg font-bold pt-4 ">Payment Button</h3>
                 <p class="font-mullish py-3 text-grayText leading-normal "> Accept payments on your website, in less than 5 minutes. No
                     developer needed. </p>
-                <div class="flex items-center justify-center">
+                <div class="flex items-center my-[10px] justify-center">
                     <a href="#"
                        class="border-[2px] py-[14px] px-[18px] rounded-md font-mullish font-bold text-lightBlue500 hover:text-grayBlue transition-all duration-200">know more</a>
                 </div>
@@ -778,7 +798,7 @@
                 <h3 class="font-mullish text-lg font-bold pt-4 ">Optimizer </h3>
                 <p class="font-mullish py-3 text-grayText leading-normal ">  Automatically route payments to multiple payment gateways,
                     improving success rate and reducing costs. </p>
-                <div class="flex items-center justify-center">
+                <div class="flex items-center -my-3 justify-center">
                     <a href="#"
                        class="border-[2px] py-[14px] px-[18px] rounded-md font-mullish font-bold text-lightBlue500 hover:text-grayBlue transition-all duration-200">know more</a>
                 </div>
@@ -786,6 +806,146 @@
         </div>
     </div>
 </section>
+
+<!-- core features  -->
+
+<section class="w-full bg-[url(./img/core-features-sectionBg.svg)] bg-no-repeat bg-cover mt-14  corefeaturesection">
+
+    <div class=" relative w-11/12 max-w-[1080px] mx-auto pt-4 ">
+
+        <h2 class=" font-mullish font-bold text-2xl text-center  text-white ">Features</h2>
+        <div class="w-6 h-1 bg-greenLight text-center mx-auto mt-4 mb-6 "></div>
+        <p class=" font-mullish text-center mx-auto  max-w-[450px] text-white"> Empower your business with all the right tools to accept online payments and provide the best customer experience </p>
+
+
+        <!-- grid  -->
+        <div class="grid grid-cols-4 gap-[2rem] mt-8 ">
+
+            <!-- card-1 -->
+
+            <div>
+
+                <img src="./img/instant-activation-icon.svg" alt="">
+                <h3 class="font-mullish text-white text-lg text-bold my-4 ">Instant Activation </h3>
+                <p class=" font-mullish text-white opacity-80  ">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation </p>
+
+            </div>
+
+            <!-- card-2  -->
+            <div>
+
+                <img src="./img/easy-integration.svg" alt="">
+                <h3 class="font-mullish text-white text-lg text-bold my-4 ">Easy Intergration </h3>
+                <p class=" font-mullish text-white opacity-80  ">With plugins for all major platforms and languages, integrate and go live with Razorpay in less than an hour  </p>
+
+            </div>
+
+            <!-- card-3  -->
+            <div>
+
+                <img src="./img/api-driven-icon.svg" alt="">
+                <h3 class="font-mullish text-white text-lg text-bold my-4 ">API Driven  </h3>
+                <p class=" font-mullish text-white opacity-80  ">Build your business for scale with our complete API driven automation that requires zero manual intervention. </p>
+
+            </div>
+
+            <!-- card-4  -->
+            <div>
+
+                <img src="./img/payment-modes.svg" alt="">
+                <h3 class="font-mullish text-white text-lg text-bold my-4 ">100+ Payments Modes  </h3>
+                <p class=" font-mullish text-white opacity-80  ">Offer your customer the luxury of all payments modes including Credit/Debit cards, Netbanking, UPI, Wallets etc.  </p>
+
+            </div>
+
+            <!-- card-5  -->
+            <div>
+
+                <img src="./img/simple-pricing.svg" alt="">
+                <h3 class="font-mullish text-white text-lg text-bold my-4 ">Simple Pricing </h3>
+                <p class=" font-mullish text-white opacity-80  ">Our innovative payments solution with competitive pricing makes payments simpler.  </p>
+
+            </div>
+
+            <!-- cad-6  -->
+            <div>
+
+                <img src="./img/industry-support-icon.svg" alt="">
+                <h3 class="font-mullish text-white text-lg text-bold my-4 ">Best-In Industry Support  </h3>
+                <p class=" font-mullish text-white opacity-80  ">Always avialable email, phone, and chat based support to help you in every step.  </p>
+
+            </div>
+
+            <!-- card-7  -->
+
+            <div>
+
+                <img src="./img/dashboard-reporting-icon.svg" alt="">
+                <h3 class="font-mullish text-white text-lg text-bold my-4 ">Dashboard Reporting </h3>
+                <p class=" font-mullish text-white opacity-80  ">Real time data and insights on your Razorpay Dashboard to make informed business decisions.  </p>
+
+            </div>
+    
+            <!-- card-8  -->
+
+            <div>
+
+                <img src="./img/secure-icon.svg" alt="">
+                <h3 class="font-mullish text-white text-lg text-bold my-4 ">Secure </h3>
+                <p class=" font-mullish text-white opacity-80  ">PCI DSS level 1 Compliant soluion which removes your burden of regulatory compilance. </p>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Join Razorpay Section  -->
+
+<section
+        class=" -mt-[50px] relative bg-[#f5f8fe] pb-12 pt-50 -z-[100]"
+      >
+        <div
+          class="max-w-[1080px] w-11/12 mx-auto relative pt-10 flex flex-col md:flex-row"
+        >
+          <!-- left part -->
+          <div class="flex flex-col justify-center w-full md:max-w-[calc(100%-500px)]">
+            <h3 class="font-inherit font-bold text-2xl text-deepBlueHead">
+              Join the 50,00,000+ businesses using Razorpay
+            </h3>
+            <div class="w-6 h-1 bg-greenLight mt-4 mb-10"></div>
+
+            <p class="font-inherit opacity-80">
+              We make it easier for you to focus on building great products
+              while we work on simplifying your payments. Become one of us by
+              joining thousands of our happy users and simplify the online
+              payment experience for your customers.
+            </p>
+            <p class="font-inherit mt-10 opacity-80">
+              Focus on your business while we handle the complexities of
+              payments for you.
+            </p>
+          </div>
+
+          <!-- right part -->
+          <div
+            class="h-[500px] md:w-[500px] overflow-y-hidden mt-24 md:mt-0 relative"
+          >
+            <img
+              src="./img/comanies.png"
+              class="absolute w-full object-cover h-full md:h-auto z-10 companiesList"
+            />
+            <div
+              class="absolute w-full h-[200px] top-0 z-20"
+              style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
+            ></div>
+            <div
+              class="absolute w-full h-[200px] bottom-0 z-20"
+              style="background: linear-gradient(0deg, #f4f8ff, #fff0)"
+            ></div>
+          </div>
+        </div>
+      </section>
 
 </div>
 
