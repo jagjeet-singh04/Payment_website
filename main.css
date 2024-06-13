@@ -1,3 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.corefeaturesection{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.companiesList{ 
+    animation:10s infinite linear movecompany  ; 
+}
+
+@keyframes movecompany  {
+    0% { 
+        top: 0 ; 
+    }
+    100% { 
+        top:-50% ; 
+    }
+}
+
+
+.featureCard:hover .featureCardIcon {
+    background-image: linear-gradient(30.55deg, #6ac7ff 11.05%, #148aff 90.09%);
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+  }
+  
+  .featureCard:hover .featureCardSVG {
+    filter: drop-shadow(0px 2px 22px rgba(202, 202, 202, 0.25));
+    stroke-opacity: 0 !important;
+  }
+  
+  .featureCard:hover .featureCardBox {
+    background-image: url('/img/features-wave.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 1rem right;
+  }
+
+  .bgcard1{
+    background-image: url('/img/instant-settlement-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+    
+  }
+  .bgcard1:hover {
+    background-image: url('/img/instant-settlement-bghover.svg');
+  }
+  .bgcard2{
+    background-image: url('/img/upi-autopay-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+    
+  }
+  .bgcard2:hover {
+    background-image: url('/img/upi-autopay-hoverbg.svg');
+  }
+
+  .bgcard3{
+    background-image:url('/img/magic-checkout-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+    
+  }
+  .bgcard3:hover {
+    background-image:  url('/img/magic-checkout-hoverbg.svg');
+  }
+
+  .bgcard4{
+    background-image: url('/img/payment-button-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+    
+  }
+  .bgcard4:hover {
+    background-image: url('/img/payment-button-hoverbg.svg');
+  }
+
+  .bgcard5{
+    background-image: url('/img/instantsettlement-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+    
+  }
+  .bgcard5:hover {
+    background-image: url('/img/instantsettlement-hoverbg.svg');
+  }
+
+
+  .bgcta{
+    background-image: url(/img/CTABg.svg);
+    background-size:cover;
+    /* background-size: 100% 100%; */
+    padding-bottom: 2rem;
+  }
+
+
+
+
